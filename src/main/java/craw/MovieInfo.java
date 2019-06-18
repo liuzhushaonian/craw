@@ -13,5 +13,7 @@ public class MovieInfo extends Model {
     private String score;//得分
     private String url;//电影详情页面
 
+    private String type;//电影类型
+
 
 }

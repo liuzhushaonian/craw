@@ -118,6 +118,13 @@ public class Craw {
 
                 }
 
+                if (movie.has("genreTypes")){
+
+                    movieInfo.setType(movie.getString("genreTypes"));
+
+                }
+
+
                 String url="http://movie.mtime.com/";
 
 

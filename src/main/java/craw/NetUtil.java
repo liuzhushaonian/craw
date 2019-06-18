@@ -13,7 +13,7 @@ public class NetUtil {
 
     public static String getJson(int page) {
 
-        String url = "http://video.mtime.com/api/videoSearch/getFilterData?h=movie&y=2019-2019&p=3&s=1&i="+page+"&c=30";
+        String url = "http://video.mtime.com/api/videoSearch/getFilterData?h=movie&y=全部年代&p=3&s=1&i="+page+"&c=30";
 
         String json = "";
 

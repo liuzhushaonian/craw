@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
 
         //打开数据库连接
-        Anima.open("jdbc:mysql://127.0.0.1:3306/xxx", "root", "123456");
+        Anima.open("jdbc:mysql://127.0.0.1:3306/craw", "root", "469112shaonian");
 
         Craw craw=new Craw();
 
